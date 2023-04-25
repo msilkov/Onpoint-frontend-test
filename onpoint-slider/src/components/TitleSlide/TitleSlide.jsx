@@ -1,14 +1,8 @@
 import React, { memo } from 'react';
-
-import bacteria from '../../images/bakti-1.png';
-import bacteriaSpike from '../../images/bakti-2.png';
-import bacteriaLarge from '../../images/bakti-3.png';
-import sperm from '../../images/pink-sperm-1.png';
+import { titleSlideImages } from '../../utils/constants';
 import arrowRight from '../../images/icons/arrow-right-icon.svg';
-
-import './TitleSlide.css';
-
 import Button from '../Button/Button';
+import './TitleSlide.css'
 
 function TitleSlide({ navToSecondSlide }) {
 	return (
@@ -22,7 +16,11 @@ function TitleSlide({ navToSecondSlide }) {
 					</span>
 					коммерческое задание
 				</h1>
-				<img className="title-slide__sperm" src={sperm} alt="Pink sperm" />
+				<img
+					className="title-slide__sperm"
+					src={titleSlideImages.sperm}
+					alt="Pink sperm"
+				/>
 				<Button
 					handleClick={navToSecondSlide}
 					isAbsolute
@@ -32,22 +30,22 @@ function TitleSlide({ navToSecondSlide }) {
 			</div>
 			<img
 				className="title-slide__bacteria title-slide__bacteria_type_bottom"
-				src={bacteria}
+				src={titleSlideImages.bacteria}
 				alt="Blue bacteria"
 			/>
 			<img
 				className="title-slide__bacteria title-slide__bacteria_type_top"
-				src={bacteria}
+				src={titleSlideImages.bacteria}
 				alt="Blue bacteria"
 			/>
 			<img
 				className="title-slide__bacteria-spike"
-				src={bacteriaSpike}
+				src={titleSlideImages.bacteriaSpike}
 				alt="Bacteria with spikes"
 			/>
 			<img
 				className="title-slide__bacteria-large"
-				src={bacteriaLarge}
+				src={titleSlideImages.bacteriaLarge}
 				alt="Large bacteria"
 			/>
 		</section>

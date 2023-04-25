@@ -1,0 +1,134 @@
+.text-slide {
+	background-image: url('../../images/background-2.jpeg');
+	background-size: cover;
+	padding: 130px 134px 0 70px;
+	position: relative;
+	min-height: 768px;
+}
+
+.text-slide__title {
+	text-transform: uppercase;
+	font-size: 27px;
+	letter-spacing: 2px;
+	line-height: 31px;
+	margin-bottom: 65px;
+	font-weight: 400;
+}
+
+.text-slide__background {
+	position: absolute;
+	height: 450px;
+	background-color: #fff;
+	padding: 40px;
+	top: 237px;
+	left: 120px;
+	right: 125px;
+	border-radius: 33px;
+	z-index: 1;
+	box-shadow: 5px 8px 233px 0px rgba(157, 185, 198, 0.39);
+}
+
+.text-slide__wrapper {
+	direction: rtl;
+	padding-left: 57px;
+	overflow-y: scroll;
+	max-height: 380px;
+}
+
+.text-slide__text {
+	margin: 0;
+	padding-right: 20px;
+	font-size: 24px;
+	text-align: left;
+	max-height: 380px;
+	position: relative;
+	z-index: 1;
+	line-height: 32px;
+}
+
+.text-slide span {
+	font-weight: 700;
+}
+
+.text-slide__wrapper::-webkit-scrollbar {
+	width: 20px;
+}
+
+.text-slide__wrapper::-webkit-scrollbar-track {
+	background: transparent;
+	box-shadow: inset 10px 10px 5px #000;
+	border-radius: 9px;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+}
+
+.text-slide__wrapper::-webkit-scrollbar-thumb {
+	background-image: url('../../images/icons/scroll-icon.png');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.text-slide__image {
+	position: absolute;
+	transform: translate(100px, 100px);
+	opacity: 0;
+	pointer-events: none;
+}
+
+.text-slide__image_type_sperm-1 {
+	width: 1183px;
+	height: 552px;
+	top: 96px;
+	right: -528px;
+	transition: all 3s 0.5s ease;
+}
+
+.text-slide__image_type_sperm-2 {
+	width: 761px;
+	top: 96px;
+	right: -327px;
+	transition: all 3.5s 0.6s ease;
+}
+
+.text-slide__image_type_sperm-3 {
+	width: 438px;
+	top: 76px;
+	right: -137px;
+	transition: all 4s 0.8s ease;
+}
+
+.text-slide__image_type_sperm-4 {
+	width: 754px;
+	bottom: 0;
+	right: -632px;
+	transition: all 3.8s 1.1s ease;
+}
+
+.text-slide__image_type_sperm-5 {
+	width: 379px;
+	bottom: 63px;
+	right: -259px;
+	transition: all 4s 1.3s ease;
+}
+
+.start-animation {
+	transform: translate(0, 0);
+	opacity: 1;
+}
+
+.stop-animation {
+	transition: none;
+}
+
+@keyframes move-and-appear {
+	0% {
+		opacity: 0;
+		transform: translate(50px, 100px);
+	}
+
+	100% {
+		transform: translate(0, 0);
+		opacity: 1;
+	}
+}

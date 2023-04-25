@@ -4,6 +4,7 @@ import Carousel from '../Carousel/Carousel'
 
 import './App.css';
 import TitleSlide from '../TitleSlide/TitleSlide';
+import TextSlide from '../TextSlide/TextSlide';
 
 export default function App() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -13,9 +14,9 @@ export default function App() {
   return (<>
     <Carousel slideIndex={currentIndex} changeSlideIndex={setCurrentIndex}>
       <TitleSlide navToSecondSlide={navToSecondSlide}/>
-      <div style={{ backgroundColor: '#f00' }}>2</div>
+      <TextSlide slideIndex={currentIndex}/>
+      <div style={{ backgroundColor: '#f00' }}>3</div>
   
-      <div>3</div>
     </Carousel>
   </>);
 };
