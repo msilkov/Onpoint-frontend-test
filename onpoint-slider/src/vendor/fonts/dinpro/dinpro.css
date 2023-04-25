@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'DIN Pro';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("DINPro-Regular.woff2") format("woff2"),
+       url("DINPro-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'DIN Pro';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("DINPro-Bold.woff2") format("woff2"),
+       url("DINPro-Bold.woff") format("woff");
+}
