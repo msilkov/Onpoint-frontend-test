@@ -1,6 +1,5 @@
 import React, { memo } from 'react';
 import { titleSlideImages } from '../../utils/constants';
-import arrowRight from '../../images/icons/arrow-right-icon.svg';
 import Button from '../Button/Button';
 import './TitleSlide.css'
 
@@ -24,7 +23,7 @@ function TitleSlide({ navToSecondSlide }) {
 				<Button
 					handleClick={navToSecondSlide}
 					isAbsolute
-					icon={arrowRight}
+					icon={titleSlideImages.arrowRight}
 					text={'Что дальше?'}
 				></Button>
 			</div>
