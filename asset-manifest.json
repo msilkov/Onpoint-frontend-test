@@ -1,13 +1,44 @@
 {
   "files": {
-    "main.css": "/Onpoint-frontend-test/static/css/main.073c9b0a.css",
-    "main.js": "/Onpoint-frontend-test/static/js/main.5e185ebd.js",
+    "main.css": "/Onpoint-frontend-test/static/css/main.f5afacfe.css",
+    "main.js": "/Onpoint-frontend-test/static/js/main.471a2da3.js",
+    "static/media/bottle.png": "/Onpoint-frontend-test/static/media/bottle.4171968a20656cd051c9.png",
+    "static/media/bakti-3.png": "/Onpoint-frontend-test/static/media/bakti-3.6ab1f92d5b4beba6c2d0.png",
+    "static/media/background-2.jpeg": "/Onpoint-frontend-test/static/media/background-2.a357cd548dca51a8ade7.jpeg",
+    "static/media/background-3.jpeg": "/Onpoint-frontend-test/static/media/background-3.4f86fac4a47a6a12f184.jpeg",
+    "static/media/pink-sperm-up-1.png": "/Onpoint-frontend-test/static/media/pink-sperm-up-1.cb4b0c15d60405a414dc.png",
+    "static/media/DINPro-Regular.woff": "/Onpoint-frontend-test/static/media/DINPro-Regular.1871e3d59b6b24eb537d.woff",
+    "static/media/DINPro-Bold.woff": "/Onpoint-frontend-test/static/media/DINPro-Bold.e77241e3cec5a2484ff2.woff",
+    "static/media/background-1.jpeg": "/Onpoint-frontend-test/static/media/background-1.5c4285270f3ebae74fbe.jpeg",
+    "static/media/Gilroy-Bold.woff": "/Onpoint-frontend-test/static/media/Gilroy-Bold.0607a1bc636f63251ed8.woff",
+    "static/media/Gilroy-Light.woff": "/Onpoint-frontend-test/static/media/Gilroy-Light.368f09f56e89b3fe11c7.woff",
+    "static/media/Gilroy-Extrabold.woff": "/Onpoint-frontend-test/static/media/Gilroy-Extrabold.f39ff81c45c126012265.woff",
+    "static/media/pink-sperm-up-2.png": "/Onpoint-frontend-test/static/media/pink-sperm-up-2.25f9fc90ea5e26ac88b5.png",
+    "static/media/pink-sperm-up-4.png": "/Onpoint-frontend-test/static/media/pink-sperm-up-4.338056e53da97a428677.png",
+    "static/media/DINPro-Regular.woff2": "/Onpoint-frontend-test/static/media/DINPro-Regular.560be2f6f935581d7d62.woff2",
+    "static/media/DINPro-Bold.woff2": "/Onpoint-frontend-test/static/media/DINPro-Bold.1db735ab632d30e6be91.woff2",
+    "static/media/pink-sperm-1.png": "/Onpoint-frontend-test/static/media/pink-sperm-1.e2e76287f891e502a510.png",
+    "static/media/bakti-2.png": "/Onpoint-frontend-test/static/media/bakti-2.6654cf7c59ac11cd44c4.png",
+    "static/media/Gilroy-Bold.woff2": "/Onpoint-frontend-test/static/media/Gilroy-Bold.ef7c40ff1efeaaa4c7c6.woff2",
+    "static/media/Gilroy-Light.woff2": "/Onpoint-frontend-test/static/media/Gilroy-Light.c2e7a6dc47e5b9a89a37.woff2",
+    "static/media/Gilroy-Extrabold.woff2": "/Onpoint-frontend-test/static/media/Gilroy-Extrabold.5c5942d3e4d9a9645df4.woff2",
+    "static/media/bubble-8.png": "/Onpoint-frontend-test/static/media/bubble-8.c6355f13d402728bbba2.png",
+    "static/media/pink-sperm-up-3.png": "/Onpoint-frontend-test/static/media/pink-sperm-up-3.c5c54e8914935ea0c6f1.png",
+    "static/media/bubble-4.png": "/Onpoint-frontend-test/static/media/bubble-4.adde8408f3deaf7b4fe1.png",
+    "static/media/bakti-1.png": "/Onpoint-frontend-test/static/media/bakti-1.0bf4b89e86e4f959b8e0.png",
+    "static/media/pink-sperm-up-5.png": "/Onpoint-frontend-test/static/media/pink-sperm-up-5.1f6e0f111bfc4efe5deb.png",
+    "static/media/logo.svg": "/Onpoint-frontend-test/static/media/logo.f4623da12f2478ba4eceb4de9ab46f13.svg",
+    "static/media/arrow-right-icon.svg": "/Onpoint-frontend-test/static/media/arrow-right-icon.fc499b6116412f55325df839c45bf531.svg",
+    "static/media/home-icon.svg": "/Onpoint-frontend-test/static/media/home-icon.fb713963173e5728fd8c77ce3b345ccd.svg",
+    "static/media/close-icon.svg": "/Onpoint-frontend-test/static/media/close-icon.43acac53cb85a6489dbf8cf3109f8021.svg",
     "index.html": "/Onpoint-frontend-test/index.html",
-    "main.073c9b0a.css.map": "/Onpoint-frontend-test/static/css/main.073c9b0a.css.map",
-    "main.5e185ebd.js.map": "/Onpoint-frontend-test/static/js/main.5e185ebd.js.map"
+    "static/media/arrow-icon.svg": "/Onpoint-frontend-test/static/media/arrow-icon.8332f80bf4ad0dc2d075ffbed210e41c.svg",
+    "static/media/plus-icon.svg": "/Onpoint-frontend-test/static/media/plus-icon.11f439e09975efce186568d8d26fd326.svg",
+    "main.f5afacfe.css.map": "/Onpoint-frontend-test/static/css/main.f5afacfe.css.map",
+    "main.471a2da3.js.map": "/Onpoint-frontend-test/static/js/main.471a2da3.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.5e185ebd.js"
+    "static/css/main.f5afacfe.css",
+    "static/js/main.471a2da3.js"
   ]
 }
