@@ -6,6 +6,7 @@
   position: relative;
   min-height: 768px;
   overflow: hidden;
+  box-sizing: border-box;
 }
 
 .title-slide__subtitle {

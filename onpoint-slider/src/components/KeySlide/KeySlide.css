@@ -36,6 +36,7 @@
 }
 
 .key-slide__layout {
+	box-sizing: border-box;
 	display: flex;
 	gap: 30px;
 }

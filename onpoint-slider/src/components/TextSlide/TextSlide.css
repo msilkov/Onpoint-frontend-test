@@ -4,6 +4,7 @@
 	padding: 130px 134px 0 70px;
 	position: relative;
 	min-height: 768px;
+	box-sizing: border-box;
 }
 
 .text-slide__title {
@@ -16,6 +17,7 @@
 }
 
 .text-slide__background {
+	box-sizing: border-box;
 	position: absolute;
 	height: 450px;
 	background-color: #fff;
