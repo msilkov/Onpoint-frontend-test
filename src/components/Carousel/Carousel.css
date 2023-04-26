@@ -1,0 +1,18 @@
+.carousel__window {
+  min-width: 1024px;
+  touch-action: pan-y;
+  overflow: hidden;
+}
+
+.carousel__content {
+  display: flex;
+  transition: transform 0.25s ease;
+  scrollbar-width: none;
+  user-select: none;
+}
+
+.carousel__content-item {
+  width: 100%;
+  flex-shrink: 0;
+  flex-grow: 1;
+}

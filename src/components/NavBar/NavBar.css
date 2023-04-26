@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 33px 0 0 95px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.navbar__image {
+  max-width: 27px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.navbar__text {
+  margin: 0 0 0 21px;
+  padding: 0 0 0 21px;
+  border-left: 1px solid #282828;
+  letter-spacing: 2px;
+  font-size: 17px;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
