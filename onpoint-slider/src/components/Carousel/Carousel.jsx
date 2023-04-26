@@ -26,33 +26,21 @@ export default function Carousel({
 	};
 
 	const handleStartMove = (e) => {
-		if (e.touches === undefined) {
-			setStartPosition(e.clientX);
-		} else {
-			setStartPosition(e.touches[0].clientX);
-		}
+		setStartPosition(
+			e.touches === undefined ? e.clientX : e.touches[0].clientX
+		);
 	};
 
 	const handleEndMove = (e) => {
-		let currentPosition = null;
+		if (startPosition === null) return;
 
-		if (startPosition === null) {
-			return;
-		}
-
-		if (e.touches === undefined) {
-			currentPosition = e.clientX;
-		} else {
-			currentPosition = e.touches[0].clientX;
-		}
-
+		const currentPosition =
+			e.touches === undefined ? e.clientX : e.touches[0].clientX;
 		const differencePos = startPosition - currentPosition;
 
 		if (differencePos > 5) {
 			navToNextSlide();
-		}
-
-		if (differencePos < -1) {
+		} else if (differencePos < -1) {
 			navToPrevSlide();
 		}
 

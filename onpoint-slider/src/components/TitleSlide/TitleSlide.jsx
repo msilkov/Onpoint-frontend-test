@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 import { titleSlideImages } from '../../utils/constants';
 import Button from '../Button/Button';
-import './TitleSlide.css'
+import './TitleSlide.css';
 
 function TitleSlide({ navToSecondSlide }) {
 	return (

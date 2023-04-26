@@ -4,9 +4,11 @@
   bottom: 0;
   padding: 0 0 13px 100px;
 }
+
 .logo__link {
   text-decoration: none;
 }
+
 .logo__image {
   width: 100%;
   height: auto; 
